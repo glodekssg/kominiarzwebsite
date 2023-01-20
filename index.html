@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Firma kominiarska</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+  <body>
+    <div class="animatedBackground">
+      <img src="chimney.png" alt="animowany komin" class="animated infinite swing">
+    </div>
+    <header>
+      <img src="logo.png" alt="Logo firmy kominiarskiej">
+      <h1>Firma kominiarska</h1>
+      <select id="language-selector">
+        <option value="pl">Polski</option>
+        <option value="en">English</option>
+        <option value="ua">Українська</option>
+      </select>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">O firmie</a></li>
+        <li><a href="#services">Usługi</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about">
+        <h2>O firmie</h2>
+        <p id="about-text"></p>
+      </section>
+      <section id="services">
+        <h2>Usługi</h2>
+        <ul id="services-list"></ul>
+      </section>
+      <section id="contact">
+        <h2>Kontakt</h2>
+        <form action="submit-form.php" method="post">
+          <label for="name">Imię i nazwisko:</label>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Adres e-mail:</label>
+          <input type="email" id="email" name="email"><br>
+          <label for="message">Wiadomość:</label>
+          <textarea id="message" name="message"></textarea><br>
+          <input type="submit" value="Wyślij">
+        </form>
+      </section>
+    </main>
+    <footer>
+      Copyright © 2021 Firma kominiarska
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

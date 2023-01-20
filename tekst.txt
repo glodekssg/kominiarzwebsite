@@ -1,0 +1,11 @@
+{
+    "pl": {
+        "about": "Firma kominiarska oferuje profesjonalne usługi kominiarskie dla domów jednorodzinnych i budynków wielorodzinnych. Nasz zespół składa się z doświadczonych i certyfikowanych kominiarzy, którzy zapewnią Państwu bezpieczeństwo i spokój.",
+        "services": ["Czyszczenie i konserwacja kominków", "Czyszczenie i przegląd przewodów kominowych", "Montaż i serwis urządzeń grzewczych", "Przeglądy okresowe i certyfikaty"]
+    },
+    "en": {
+        "about": "Our chimney company offers professional chimney services for single-family homes and multi-family buildings. Our team consists of experienced and certified chimney sweeps who will provide you with safety and peace of mind.",
+        "services": ["Chimney cleaning and maintenance", "Chimney cleaning and inspection", "Installation and servicing of heating devices", "Periodic inspections and certificates"]
+    },
+    "ua": {
+        "about": "Наша компанія-камінник надає професійні послуги камінників для одноквартирних та будинків з багатоквартирною забуд
